@@ -18,7 +18,7 @@ const Chat = () => {
         `${process.env.REACT_APP_OPENAI_API_ENDPOINT}/openai/deployments/gpt-35-turbo-instruct/completions?api-version=2023-05-15`,
         {
           prompt: input,
-          max_tokens: 1000,
+          max_tokens: 500,
           temperature: 0.7,
         },
         {
